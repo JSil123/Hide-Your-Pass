@@ -1,0 +1,23 @@
+/*****************************************************************************
+#include <iostream>
+#include <cstring>
+#include <unistd.h>
+#include <sys/stat.h> 
+#include <fcntl.h>
+
+using namespace std; 
+
+int argc = 9;
+int main( int argc, char *argv[])
+{
+      char* buffer = new char[100];
+      char* myArr[40];
+      strcpy(buffer,argv[1]);
+      delete[] buffer;
+      argc = NULL;
+      cout << "You have not found the secret pass."
+      cout << argc << endl;
+      //delete[] buffer;
+      return 0;
+      
+}
